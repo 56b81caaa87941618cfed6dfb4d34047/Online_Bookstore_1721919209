@@ -3,8 +3,8 @@ Vue.component('faq_accordion_1721919221', {
     <div>
       <section class="leading-relaxed max-w-screen-xl mt-12 mx-auto px-4 md:px-8 bg-white">
         <div class="space-y-3 text-center">
-          <h1 class="text-4xl text-gray-800 font-semibold pt-10">FAQ_TITLE_PLACEHOLDER_TEXT</h1>
-          <p class="text-gray-600 max-w-lg mx-auto text-lg">FAQ_SUBTITLE_PLACEHOLDER_TEXT</p>
+          <h1 class="text-4xl text-gray-800 font-semibold pt-10">All About Our Book Store</h1>
+          <p class="text-gray-600 max-w-lg mx-auto text-lg">Get answers to your questions about buying books online</p>
         </div>
         <div class="mt-14 max-w-2xl mx-auto">
           <div v-for="(item, index) in faqs" :key="index" class="space-y-5 mt-5 overflow-hidden border-b border-gray-200 hover:bg-gray-50 cursor-pointer" @click="toggleFaq(index)">
@@ -30,24 +30,24 @@ Vue.component('faq_accordion_1721919221', {
       selectedFaq: null,
       faqs: [
         {
-          q: "FAQ_PLACEHOLDER_QUESTION_TEXT_1",
-          a: "FAQ_PLACEHOLDER_ANSWER_TEXT_1"
+          q: "What types of books can I buy?",
+          a: "Our online bookstore offers a vast selection of books across various genres including fiction, non-fiction, classics, biographies, self-help, children's books, and more. We strive to have something for every reader."
         },
         {
-          q: "FAQ_PLACEHOLDER_QUESTION_TEXT_2",
-          a: "FAQ_PLACEHOLDER_ANSWER_TEXT_2"
+          q: "How do I place an order?",
+          a: "Placing an order is easy! Simply browse our collection, add the books you want to your cart, proceed to checkout, and complete the payment process. You can also create an account for faster checkout on future orders."
         },
         {
-          q: "FAQ_PLACEHOLDER_QUESTION_TEXT_3",
-          a: "FAQ_PLACEHOLDER_ANSWER_TEXT_3"
+          q: "Do you offer free shipping?",
+          a: "Yes, we offer free standard shipping on orders over a certain amount (which may vary depending on your location). Expedited shipping options are also available at an additional cost."
         },
         {
-          q: "FAQ_PLACEHOLDER_QUESTION_TEXT_4",
-          a: "FAQ_PLACEHOLDER_ANSWER_TEXT_4"
+          q: "How long does delivery take?",
+          a: "Delivery times can vary based on your location and the shipping method you choose. Standard shipping typically takes 5-10 business days, while expedited options are faster but more expensive."
         },
         {
-          q: "FAQ_PLACEHOLDER_QUESTION_TEXT_5",
-          a: "FAQ_PLACEHOLDER_ANSWER_TEXT_5"
+          q: "Can I return or exchange books?",
+          a: "Absolutely, we have a hassle-free return and exchange policy. If you're not satisfied with your purchase for any reason, you can return it within a specified number of days for a full refund or exchange."
         }
       ]
     }
